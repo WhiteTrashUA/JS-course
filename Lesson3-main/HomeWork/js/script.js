@@ -60,3 +60,6 @@
 // console.log(girlsAge);
 // let summ = girlsAge.reduce((sum, item) => sum + item) / girlsAge.length;
 // console.log(summ);
+
+// let summ = girls.reduce((sum, item) => sum + item.age, 0) / girls.length;
+// console.log(summ);
