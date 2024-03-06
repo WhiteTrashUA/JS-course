@@ -22,18 +22,28 @@
 // }
 
 // 2 //
-// const btn1 = document.querySelector(".btn1");
+const btn1 = document.querySelector(".btn1");
 
-// btn1.addEventListener("click", cluck);
+btn1.addEventListener("click", cluck);
 
-// function cluck(event) {
-//   const checkClass = document.querySelector("active");
+function cluck(event) {
+  event.target.hidden = !event.target.hidden;
 
-//   if (checkClass) {
-//     event.target.classList.remove("active");
-//   } else {
-//     event.target.classList.add("active");
-//   }
-// }
+  const checkClass = document.querySelector("active");
+
+  //   if (checkClass) {
+  //     event.target.classList.remove("active");
+  //   } else {
+  //     event.target.classList.add("active");
+  //   }
+}
 
 // 3 //
+
+const wood = document.querySelector("#tree");
+for (let li of tree.querySelectorAll("li")) {
+  let span = document.createElement("span");
+  li.prepend(span);
+  span.append(span.nextSibling);
+}
+tre.onclick = 
